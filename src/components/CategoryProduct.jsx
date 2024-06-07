@@ -16,7 +16,7 @@ export function CategoryProduct () {
             className='h-[180px] w-[150px] bg-white text-black rounded-xl overflow-hidden flex-shrink-0 flex flex-col items-center'
           >
             <div>
-              <img src='/ads-1.jpeg' className='aspect-video' />
+              <img src='/Adds/ads-1.jpeg' className='aspect-video' />
             </div>
             <div className='text-center py-2'>
               <h4 className='text-lg font-semibold'>Producto</h4>
