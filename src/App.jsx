@@ -1,6 +1,7 @@
 import { Category } from './components/Category'
 import { CategoryProduct } from './components/CategoryProduct'
 import { Header } from './components/Header'
+import { Footer } from './components/Footer'
 import { SliderAds } from './components/SliderAds'
 import { Sponsors } from './components/Sponsors'
 import { Whatsapp } from './components/Whatsapp'
@@ -35,6 +36,7 @@ function App () {
       />
       <CategoryProduct />
       <Whatsapp />
+      <Footer />
     </>
   )
 }
