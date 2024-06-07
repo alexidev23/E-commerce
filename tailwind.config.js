@@ -12,7 +12,8 @@ export default {
         cardDarkCyan: '#00636E',
         seconCardDarkCyan: '#00606B',
         buttonsLightGreen: '#40A578',
-        DarkBlue: '#153448'
+        DarkBlue: '#153448',
+        cardDarkGreen: '#032B34'
       }
     }
   },
