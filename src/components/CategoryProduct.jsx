@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export function CategoryProduct () {
   return (
@@ -26,7 +27,11 @@ export function CategoryProduct () {
         ))}
       </div>
       <div className='pt-4'>
-        <button className='bg-buttonsLightGreen w-full h-14 rounded-full'>Ver mas Productos</button>
+        <Link to='/tecnologia'>
+          <div className='bg-buttonsLightGreen w-full h-14 rounded-full flex items-center justify-start px-6 text-xl font-semibold'>
+            Ver mas Productos
+          </div>
+        </Link>
       </div>
     </div>
   )
