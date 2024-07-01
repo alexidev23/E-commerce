@@ -7,6 +7,8 @@ import ErrorPage from './error-page.jsx'
 import { Compras } from './routes/Compras.jsx'
 import { Home } from './routes/Home.jsx'
 import { Producto } from './routes/Producto.jsx'
+import { Login } from './routes/Login.jsx'
+import { Register } from './routes/Register.jsx'
 
 const router = createBrowserRouter([
   {
@@ -27,6 +29,16 @@ const router = createBrowserRouter([
         element: <Producto />
       }
     ]
+  },
+  {
+    path: '/login',
+    element: <Login />,
+    errorElement: <ErrorPage />
+  },
+  {
+    path: '/register',
+    element: <Register />,
+    errorElement: <ErrorPage />
   }
 ])
 
